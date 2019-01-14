@@ -28,5 +28,6 @@ describe('Configs', () => {
     expect(typeof getDefaultReducers('todo').openTodoForm).toBe('function');
     expect(typeof getDefaultReducers('todo').closeTodoForm).toBe('function');
     expect(typeof getDefaultReducers('todo').setTodoSchema).toBe('function');
+    expect(typeof getDefaultReducers('todo').selectTodo).toBe('function');
   });
 });
